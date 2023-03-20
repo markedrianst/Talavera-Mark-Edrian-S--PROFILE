@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: GasaltRegular;
+    src: url(../Gasalt-Regular.ttf);
+    
+}
+
+
+
+body{
+    background-color:lightgray;
+}
+.container{
+    margin: 200px;;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    /* height: 50vh; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+
+
+
+}
+
+.profile-picture{
+    border-radius: 80px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 150px;
+
+
+
+}
+
+.name{
+    font-family: GasaltRegular;
+    text-align: center;
+}
+
+.bio{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+
+a{
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+
+
+.social-link{
+    color:  #3b5998;
+    padding: 14px 25px; 
+     display: inline-block;     
+    text-align: center;
+    font-size: 20px;
+    margin-left: 4%;
+
+}
+
+
+.social-link:hover{
+    background-color:  #4c75ce;
+    color: white;
+    /* font-size: 30px; */
+    margin-left: 5%;
+    border-radius: 40px;
+    padding: 14px 25px; 
+    
+}
+.social-icon{ 
+    float: left;
+    padding-right: 10px;
+    display: block;
+    /* border-radius: 40px; */
+    width: 30px;
+}
+
+
+
+
+
+
+
+/* .social-link{
+    color:  #3b5998;
+    padding: 14px 25px; 
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.social-link:hover{
+    background-color:  #4c75ce;
+    color: white;
+    font-size: 15px;
+    margin-left: 5%;
+    border-radius: 40px;
+    padding: 14px 25px;   
+
+}
+
+.social-icon{ 
+    float: center;
+    display: block;
+    width: 30px;
+
+}  */
